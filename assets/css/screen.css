@@ -29,6 +29,12 @@
 .ui.secondary.pointing.menu {
     margin-bottom: 0px;
     font-size: 90%;
+    background-image: url('../img/menu_bg.png');
+    color: white;
+}
+
+.ui.secondary.pointing.menu > .item {
+    color: white;
 }
 
 html {
@@ -249,12 +255,12 @@ h6 {
 }
 
 a {
-    color: #4A4A4A !important;
+    color: #EB9001 !important;
     transition: color 0.3s ease !important;
 }
 
 a:hover {
-    color: #111;
+    color: #D53F00;
 }
 
 p, ul, ol, dl {
