@@ -32,14 +32,25 @@
     font-size: 90%;
     background-image: url('../img/menu_bg.png');
     color: white;
+    font-family: 'Jura', sans-serif !important;
 }
 
 .ui.secondary.pointing.menu > .item {
     color: white;
+    font-family: 'Jura', sans-serif !important;
 }
 
+.container, .post {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.post-header, .post-content> h1, h2, h3, h4, h5, h6 {
+   font-family: 'Montserrat', sans-serif !important;
+   text-transform: uppercase;
+}
 html {
-    font-family: sans-serif;
+    font-family: 'Jura', sans-serif !important;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -223,7 +234,7 @@ h4, h5, h6 {
     color: #2E2E2E !important;
     line-height: 1.15em !important;
     margin: 0 0 0.4em 0 !important;
-    font-family: "Open Sans", sans-serif !important;
+    font-family: "Open Sans", sans-serif;
     text-rendering: geometricPrecision !important;
 }
 
